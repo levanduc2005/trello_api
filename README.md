@@ -1,9 +1,5 @@
-### Bộ code base để bắt đầu học khóa MERN Stack Pro (VIẾT CÁC REST API CHUẨN CHỈNH) - Lập Trình qua dự án thực tế Trello Clone trên YouTube của mình nhé các bạn!
-### Base project for my MERN Stack Pro Course - Build Trello App on YouTube!
-
-- Link Download Full Source Code hoàn chỉnh của bộ này và ủng hộ mình: (Sắp có...)
-
-- Link YouTube Playlist: https://www.youtube.com/playlist?list=PLP6tw4Zpj-RJP2-YrhtkWqObMQ-AA4TDy
+### Bộ code base
+### Base project for my MERN Stack Pro Course - Build Trello App 
 
 ### Hướng dẫn clone Repo code này về máy các bạn chuẩn nhất ở đây nhé:
 
@@ -31,16 +27,6 @@
 ```
 
 ### About Me - Thông tin về mình:
-
-Author: **Trungquandev - Một Lập Trình Viên** & **CodeTQ**
-
-Blog: https://trungquandev.com/
-
-CV: https://cv.trungquandev.com/
-
-YouTube 01 (Trungquandev - Một Lập Trình Viên): https://www.youtube.com/@trungquandev
-
-YouTube 02 (CodeTQ): https://www.youtube.com/@code-tq
 
 "Learning new everyday not the copycat of yesterday!"
 
