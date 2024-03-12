@@ -23,12 +23,21 @@ const START_SERVE = () => {
   // Middleware handle lỗi tập trung
   app.use(errorHandlingMiddleware);
 
-  app.listen(env.APP_PORT, env.APP_HOST, () => {
-    // eslint-disable-next-line no-console
-    console.log(
-      `${env.AUTHOR}, I am running at http://${env.APP_HOST}:${env.APP_PORT}/`
-    );
-  });
+  if (env.BUILD_MODE === "production") {
+    // Build code ở env production
+    app.listen(process.env.PORT, () => {
+      console.log(
+        `${env.AUTHOR}, I am running successfully at port ${process.env.PORT}`
+      );
+    });
+  } else {
+    // Build code ở env dev
+    app.listen(env.APP_PORT, env.APP_HOST, () => {
+      console.log(
+        `${env.AUTHOR}, I am running at http://${env.APP_HOST}:${env.APP_PORT}/`
+      );
+    });
+  }
 
   exitHook(() => {
     console.log("exit app");
